@@ -18,11 +18,12 @@ android {
 
         // ---- M-Pesa backend settings (edit these) ----
         // BACKEND_URL: your ngrok https URL WITH a trailing slash, e.g. "https://abcd-12-34.ngrok-free.app/"
-        buildConfigField("String", "BACKEND_URL", "\"\"")
-        // true  = payments are simulated inside the app (no server, no real M-Pesa call)
+        buildConfigField("String", "BACKEND_URL", "\"https://lifter-juggle-issuing.ngrok-free.dev/\"")        // true  = payments are simulated inside the app (no server, no real M-Pesa call)
         // false = payments go to your backend, which calls the Safaricom Daraja sandbox
-        buildConfigField("boolean", "MPESA_SIMULATED", "true")
-    }
+        buildConfigField("boolean", "MPESA_SIMULATED", "false")
+
+
+        5    }
     buildTypes {
         release {
             isMinifyEnabled = false

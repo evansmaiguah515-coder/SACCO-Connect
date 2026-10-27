@@ -1,6 +1,14 @@
-*.iml
+﻿*.iml
 .gradle/
+**/build/
 local.properties
 .idea/
-build/
 captures/
+.kotlin/
+.env
+**/.env
+.venv/
+__pycache__/
+*.py[cod]
+
+app/google-services.json
