@@ -10,5 +10,4 @@ captures/
 .venv/
 __pycache__/
 *.py[cod]
-
 app/google-services.json
